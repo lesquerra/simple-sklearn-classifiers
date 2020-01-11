@@ -17,7 +17,7 @@ There are 7 algorithms implemented testing multiple configurations using grid se
 - <b>Decision Tree</b>. Configurations: max_depth = [1, 2, 3, ..., 50] and min_samples_split = [2, 3, 4, ..., 10].
 - <b>Random Forest</b>. Configurations: max_depth = [1, 2, 3, ..., 50] and min_samples_split = [2, 3, 4, ..., 10].
 
-Any configuration can be edited using the corresponding <code>parameters</code> variable. All <b>scores</b> are stacked and written into an output file.
+Any configuration can be edited using the corresponding <code>parameters</code> variable. The best configuration <b>scores</b> for each algorithm are stacked and written into an output file.
 
 ## Running the algorithms
 
